@@ -47,7 +47,7 @@ class StarRating extends Component {
 
     const starRatingStyles = {
       flexDirection: reversed ? 'row-reverse' : 'row',
-      justifyContent: 'space-between',
+      justifyContent: 'center',
     };
 
     // Round rating down to nearest .5 star
